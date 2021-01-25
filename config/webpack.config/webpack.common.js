@@ -9,7 +9,7 @@
 //-------------------------------------------------------------------------------
 
 const path = require('path')
-const HtmlWebpackPlugin = require('/usr/local/lib/node_modules/html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   module: {
