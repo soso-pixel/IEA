@@ -1,0 +1,32 @@
+header {
+  padding: 20px 50px;
+  color: #f1faee;
+  font-weight: 300;
+  background: #e63946;
+  h1 {
+    margin: 0;
+    font-weight: 100;
+  }
+  h3 {
+    font-weight: 300;
+  }
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.charts {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .bar-chart {
+    flex: 1;
+  }
+
+  .polar-chart {
+    flex: 1.6;
+  }
+}
